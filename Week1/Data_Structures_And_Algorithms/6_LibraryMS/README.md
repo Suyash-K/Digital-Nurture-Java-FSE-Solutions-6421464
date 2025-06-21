@@ -23,4 +23,3 @@
 - **Large, mostly-read-only catalogs**:  
   Use **binary search**. Sort once (O(n log n)), then perform searches in O(log n) each. Ideal when many lookups far outweigh occasional inserts.
 
-> **Tip**: For dynamic catalogs with frequent additions/removals and high lookup volume, consider indexed structures (e.g., `TreeMap` or full-text search engines) for even faster and more flexible querying.  
